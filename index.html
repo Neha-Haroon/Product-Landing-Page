@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- =============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.jpg" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Footwear E-cart - Neha</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <h1> ShoePLANNET</h1>
+            </a>
+
+            <div class="nav__menu" id="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-2-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item"><a href="#new" class="nav__link">
+                            <i class="ri-price-tag-3-line"></i>
+                            <span>New</span></a></li>
+
+                    <li class="nav__item">
+                        <a href="#collection" class="nav__link">
+                            <i class="ri-compass-line"></i>
+                            <span>Collection</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">
+                            <i class="ri-t-shirt-line"></i>
+                            <span>Product</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Theme change button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        New Footwear <br>
+                        Collection
+                    </h1>
+                    <p class="home__description">
+                        Wearing proper walking shoes is a fundamental<br>
+                        element in maintaining the correct walking<br>
+                        technique, as well as preventing injury</p>
+                    <a href="#new" class="button__link">
+                        <h3>
+                            Explore
+                        </h3>
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+                <div class="home__images">
+                    <img src="assets/img/home1.jpg" alt="home">
+                    <img src="assets/img/home2.jpg" alt="home">
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== NEW ====================-->
+        <section class="new section" id="new">
+            <h2 class="section__title">New Categories</h2>
+            <div class="new__container container grid">
+                <article class="new__card">
+                    <img src="assets/img/new2.webp" alt="new img" class="new__img">
+
+                    <a href="#" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">Northstar Converse</h2>
+                            <span class="new__subtitle">Winter Collection</span>
+                        </div>
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="new__card">
+                    <img src="assets/img/new1.jpg" alt="new img" class="new__img">
+
+                    <a href="#" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">Air Force</h2>
+                            <span class="new__subtitle">Winter Collection</span>
+                        </div>
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="new__card">
+                    <img src="assets/img/new3.jpg" alt="new img" class="new__img">
+
+                    <a href="#" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">Pants and Jackets</h2>
+                            <span class="new__subtitle">Winter Collection</span>
+                        </div>
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== COLLECTION ====================-->
+        <section class="collection section" id="collection">
+            <div class="collection__container container">
+
+                <div class="collection__explore">
+                    <div class="collection__data-men">
+                        <h2 class="collection__title">
+                            Men <br>
+                            Collection
+                        </h2>
+                        <a href="#" class="button__link">Explore Clothes
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <img src="assets/img/collection33.jpg" alt="">
+                </div>
+
+                <div class="collection__explore">
+                    <img src="assets/img/collection3.jpg" alt="">
+
+                    <div class="collection__data-women">
+                        <h2 class="collection__title">
+                            Women <br>
+                            Collection
+                        </h2>
+
+                        <a href="#" class="button__link">Explore Clothes
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== PRODUCTS ====================-->
+        <section class="products section" id="products">
+            <h2 class="section__title">
+                Best Products
+            </h2>
+
+            <div class="products__container container swiper">
+                <div class="swiper-wrapper">
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/product1.jpg" alt="" class="product__img">
+
+                        <h2 class="products_title">
+                            Nike Runners
+                        </h2>
+                        <span class="products__price">
+                            PKR 15,000
+                        </span>
+                    </article>
+
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/product2.jpg" alt="" class="product__img">
+
+                        <h2 class="products_title">
+                            Nike Northstar Coverse
+                        </h2>
+                        <span class="products__price">
+                            PKR 23,000
+                        </span>
+                    </article>
+
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/product3.jpg" alt="" class="product__img">
+
+                        <h2 class="products_title">
+                            Air Jordan Pegasus
+                        </h2>
+                        <span class="products__price">
+                            PKR 17,000
+                        </span>
+                    </article>
+
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/product4.jpg" alt="" class="product__img">
+
+                        <h2 class="products_title">
+                            Adidas Zoom Pegasus
+                        </h2>
+                        <span class="products__price">
+                            PKR 14,000
+                        </span>
+                    </article>
+
+                </div>
+
+                <!-- <div class="swiper-button-next">
+                    <i class="ri-arrow-right-line"></i>
+                <!-- </div> -->
+
+                <div class="swiper-button-prev">
+                    <i class="ri-arrow-left-line"></i>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== BRANDS ====================-->
+        <section class="brand section">
+            <h2 class="section__title">
+                Brands We Sell
+            </h2>
+
+            <div class="brand__container container grid">
+                <img src="assets/img/logo1.png" alt="" class="brand__img">
+                <img src="assets/img/logo2.png" alt="" class="brand__img">
+                <img src="assets/img/logo3.png" alt="" class="brand__img">
+                <img src="assets/img/logo4.png" alt="" class="brand__img">
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    ShoePLANNET.
+                </a>
+                <p class="footer__description">
+                    Shoes are tools. Without the <br>
+                    correct tools, you are likely<br>
+                    to hurt yourself, making you more <br>
+                    prone to suffer further and more <br>
+                    severe injuries in the future.</p>
+            </div>
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">
+                        Company
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">
+                                Shop
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">
+                                Category
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">
+                                Content Info
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div>
+                    <h3 class="footer__title">
+                        Blog
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">
+                                Events
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">
+                                Popular News
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">
+                                Recents News
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+                <div>
+                    <h3 class="footer__title">
+                        Blog
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">
+                                Monday - Friday <br>
+                                9AM -10AM
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Contact Us
+                    </h3>
+                    <ul class="footer__socials">
+                        <li>
+                            <a href="/www.facebook.com/" target="_black" class="footer__social-link">
+                                <i class="ri-facebook-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/www.instagram.com/" target="_black" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/www.youtube.com/" target="_black" class="footer__social-link">
+                                <i class="ri-youtube-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/www.whatapp.com/" target="_black" class="footer__social-link">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer__info container">
+            <span class="footer__copy">&#169; All rights Reserved</span>
+        </div>
+        <a href="#" class="footer__privacy">
+            Terms and Condition
+        </a>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
